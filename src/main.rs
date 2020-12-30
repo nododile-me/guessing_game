@@ -10,7 +10,7 @@ fn main() {
     let secret_number  = rand::thread_rng().gen_range(1, 101);
     
     loop{ 
-        println!("Please input your guess.");
+        println!("Please input your guess."); //printing to thr screen using or calling a macro
     
         //create a mutable string guess and pass the instance of a new string
         let mut guess = String::new();
