@@ -34,7 +34,7 @@ fn main() {
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
                 println!("You win!");
-                break;  //break the game if user guess is correct
+                break;  //stop the game if user guess is correct
             }
         }
 
