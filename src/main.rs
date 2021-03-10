@@ -8,6 +8,9 @@ fn main() {
 
     //create a variable secret_number and generate a random number between 1 and 100 and assign into that varibale
     let secret_number  = rand::thread_rng().gen_range(1, 101);
+
+    //counter
+    let mut counter = 0;
     
     loop{ 
         println!("Please input your guess."); //printing to thr screen using or calling a macro
@@ -28,12 +31,14 @@ fn main() {
         
         
         println!("You guessed: {}", guess); //print the value of guess
+        counter = counter + 1;
 
         match guess.cmp(&secret_number){
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
                 println!("You win!");
+                println!("You have had {} guessed before you got the answer!", counter);
                 break;  //stop the game if user guess is correct
             }
         }
