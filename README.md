@@ -14,8 +14,10 @@ cd ../guessing_game
 ```
 
 ### Build and Run
-```cargo build```
-```cargo run```
+```
+cargo build
+cargo run
+```
 
 # Enjoy the game!
 
