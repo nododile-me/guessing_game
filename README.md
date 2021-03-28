@@ -13,7 +13,7 @@ Clone the repository and Navigate to the directory of the program
 
 ```
 git clone https://github.com/nododile/guessing_game.git
-cd ../guessing_game
+cd guessing_game
 ```
 
 ### Build and Run
