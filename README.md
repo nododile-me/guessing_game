@@ -12,7 +12,7 @@ You can find the book online [here](https://doc.rust-lang.org/book/), and specif
 Clone the repository and Navigate to the directory of the program
 
 ```
-git clone https://github.com/nododile/guessing_game.git
+git clone https://github.com/6636345E/guessing_game.git
 cd guessing_game
 ```
 
