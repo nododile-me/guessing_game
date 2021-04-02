@@ -13,7 +13,7 @@ Clone the repository and Navigate to the directory of the program
 
 ```
 git clone https://github.com/6636345E/guessing_game.git
-cd guessing_game
+cd /guessing_game
 ```
 
 ### Build and Run
@@ -22,6 +22,6 @@ cargo build
 cargo run
 ```
 
-# Enjoy the game!
+# Play & Enjoy the game!
 
 
