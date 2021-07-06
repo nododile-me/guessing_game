@@ -1,6 +1,6 @@
 # Guessing Game
 Hi. 
-You can give this program a star and clone it
+You can give this program a star and clone it.
 
 
 - [x] Make sure you have [Rust toolkits](https://www.rust-lang.org/) installed in your machine.
